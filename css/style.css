@@ -29,3 +29,32 @@ html {
     line-height: 2rem;
     color: #000411;
 }
+
+body {
+    background-color: #000;
+}
+
+.container {
+    max-width: 428px;
+    padding: 0 2.9rem;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('/images/bg1.jpg');
+    height: 90.9rem;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+header a {
+    display: inline-block;
+    position: absolute;
+    bottom: 6.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 37.6rem;
+    height: 8rem;
+}
