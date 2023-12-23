@@ -68,11 +68,15 @@ header,
 .polotno-2 {
     width: 100%;
     position: relative;
+    /* user-select: none;
+    pointer-events: none; */
 }
 
 header img,
 .polotno-2 img {
     width: 100%;
+    user-select: none;
+    pointer-events: none;
 }
 
 .btn-1 {
@@ -119,6 +123,8 @@ header img,
     margin: 0 auto;
     margin-bottom: 5rem;
     width: 30.7rem;
+    user-select: none;
+    pointer-events: none;
 }
 
 .slick-prev,
@@ -153,6 +159,8 @@ header img,
     margin: 0 auto;
     margin-bottom: 5rem;
     width: 37.1rem;
+    user-select: none;
+    pointer-events: none;
 }
 
 .FAQ {
