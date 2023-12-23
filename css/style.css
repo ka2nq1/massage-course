@@ -23,38 +23,44 @@ ul {
 
 html {
     scroll-behavior: smooth;
-    font-family: var(--content-font);
+    font: 400 2.3364485981vw/1.33 var(--content-font), sans-serif;
     font-weight: 400;
-    font-size: 10px;
     line-height: 2rem;
     color: #000411;
 }
 
+@media (min-width: 428px) {
+    html {
+        font: 400 10px var(--content-font), sans-serif;
+    }
+}
+
 body {
     background-color: #000;
+    max-width: 428px;
+    margin: 0 auto;
 }
 
 .container {
-    max-width: 428px;
     padding: 0 2.9rem;
     margin: 0 auto;
 }
 
 header {
-    background-image: url('/images/bg1.jpg');
-    height: 90.9rem;
     width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
     position: relative;
+}
+
+header img {
+    width: 100%;
 }
 
 header a {
     display: inline-block;
     position: absolute;
-    bottom: 6.2rem;
+    bottom: 5rem;
     left: 50%;
     transform: translateX(-50%);
     width: 37.6rem;
-    height: 8rem;
+    height: 9rem;
 }
