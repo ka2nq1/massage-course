@@ -134,12 +134,12 @@ header img,
 }
 
 .slick-prev {
-    background-image: url("/images/slider-left.svg") !important;
+    background-image: url(images/slider-left.svg) !important;
     left: calc(50% - 6rem) !important;
 }
 
 .slick-next {
-    background-image: url("/images/slider-right.svg") !important;
+    background-image: url(images/slider-right.svg) !important;
     right: calc(50% - 6rem) !important;
 }
 
@@ -187,7 +187,7 @@ header img,
 }
 
 .FAQ .item-wrap .icon {
-    background-image: url("/images/faq-arrow.svg");
+    background-image: url(images/faq-arrow.svg);
     background-repeat: no-repeat;
     min-width: 1.6rem;
     height: 1rem;
